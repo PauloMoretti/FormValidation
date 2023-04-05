@@ -1,0 +1,66 @@
+* {
+  font-family: Helvetica;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+  background-color: rgb(48, 47, 47);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(216, 149, 160);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 500px;
+  margin: 0 auto;
+  color: white;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(216, 149, 160);
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+select:hover {
+  transition: 0.5s;
+  background-color: rgb(110, 109, 109);
+  cursor: text;
+}
+
+input:hover {
+  transition: 0.5s;
+  background-color: rgb(110, 109, 109);
+  cursor: text;
+}
+
+button:hover {
+  color: black;
+  background-color: rgb(196, 98, 114);
+  font-weight: 600;
+}
